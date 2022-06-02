@@ -4,32 +4,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/style.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Nguyen Portfolio</title>
 </head>
 <body>
 
     <!-- header flexbox -->
     <header class="header">
-        <h1>
-            Sarah R Nguyen
-        </h1>
-        <nav>
-            <ul>
-                
+        <div class="name-tag">
+            <h1>
+                Sarah R Nguyen
+            </h1>
+        </div>
+        
+            <ul class="nav">
+                <li><a href="#about">About</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="https://docs.google.com/document/d/1htzY1tWS9QIlRXSLLAzSbI9jbifyg_nPwcNnCsaNl90/edit#heading=h.5rf9wr4r3no2" target="_blank">
+                    Resume</a></li>
             </ul>
-        </nav>
-
+        
     </header>
 
 <!-- avitar picture decorative flexbox -->
     <section class="picture-me">
-        <div class="avitar"></div>
+        <div class="avatar-hero">
+
+            <img src="./assets/images/AvatarMaker.png" alt="Sarah Nguyen avatar">
+
+            <h2 class="hero"><span>FULL</span>-Stack Dev</h2>
+        </div>
         <div class="full-stack"></div>
     </section>
 
     <!-- about me paragraph -->
-    <section class="about-me">
+    <section class="about-me" id="about">
         <h2>
             About Me
         </h2>
@@ -41,17 +51,27 @@
     </section>
 
     <!-- links to apps i've created -->
-    <section class="my-work">
-<div class="app"></div>
-<div class="app"></div>
-<div class="app"></div>
+    <section class="my-work" id="work">
+        <h2>My Work</h2>
+<div class="app">
+        <a href="https://gribbler25.github.io/run-buddy/" target="_blank">Run-Buddy Landing Page</a>
+    </div>
+<div class="app">
+        <a href="https://gribbler25.github.io/FanpageTestProject" target="_blank">Duran-Duran Fan Page!</a>
+    </div>
+<div class="app">
+        <a href="" target="_blank">Horiseon Project</a>
+    </div>
 <div class="app"></div>
 <div class="app"></div>
    
     </section>
 
     <!-- ways to reach out for an interview -->
-    <section class="contact">
+    <section class="footer" id="contact">
+    <div class="contact">
+        <h2>Contact Me</h2>
+    </div>
 
 
     </section>
