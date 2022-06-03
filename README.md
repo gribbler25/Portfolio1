@@ -7,7 +7,7 @@ A first draft of a professional portfolio.
 
 This basic first Portfolio highlights new HTML and advanced CSS skills and understanding that I acquired in the first 2 weeks of Coding Bootcamp.
 
-I used Flexbox properties and media queries to help the website adjust better to different screen sizes with some success, though with more practice and deeper understnading I will be able to make this Portfolio more seamlessly responsive.
+I used Flexbox properties and media queries to help the website adjust better to different screen sizes with some success, though with more practice and deeper understanding I will be able to make this Portfolio more seamlessly responsive.
 
 ##Some of the challenges I faced:
 
