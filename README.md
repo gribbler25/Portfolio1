@@ -17,6 +17,6 @@ I used Flexbox properties and media queries to help the website adjust better to
 
 1) The flex property behavior was not always as expected, i think due to my inexperience with how child divs respond to different values of flex justify-content and wrap.
 
-2)Modifying images' and divs' sizes and choosing the best way to do that for a mobile responsive site.
+2) Modifying images' and divs' sizes and choosing the best way to do that for a mobile responsive site.
 
-3)I could not, in the time I had, figure out why any attempt at hover effects or putting content into <img> or <a> elements in the work-apps section was unsuccessful.
+3) I could not, in the time I had, figure out why any attempt at hover effects or putting content into <img> or <a> elements in the work-apps section was unsuccessful.
