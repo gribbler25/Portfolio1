@@ -1,106 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Nguyen Portfolio</title>
-</head>
+  </head>
 
-<body>
+  <body>
+    <container class="container-fluid">
+      <div class="row vh-100">
+        <!-- header flexbox -->
+        <header class="header">
+          <div class="name-tag">
+            <h1>Sarah R Nguyen</h1>
+          </div>
 
-    <!-- header flexbox -->
-    <header class="header">
-        <div class="name-tag">
-            <h1>
-                Sarah R Nguyen
-            </h1>
-        </div>
-
-        <ul class="nav">
+          <ul class="nav">
             <li><a href="#about">About</a></li>
             <li><a href="#work">Work</a></li>
             <li><a href="#contact">Contact</a></li>
-            <li><a href="https://docs.google.com/document/d/1htzY1tWS9QIlRXSLLAzSbI9jbifyg_nPwcNnCsaNl90/edit#heading=h.5rf9wr4r3no2"
-                    target="_blank">
-                    Resume</a></li>
-        </ul>
+            <li>
+              <a
+                href="https://docs.google.com/document/d/1htzY1tWS9QIlRXSLLAzSbI9jbifyg_nPwcNnCsaNl90/edit#heading=h.5rf9wr4r3no2"
+                target="_blank"
+              >
+                Resume</a
+              >
+            </li>
+          </ul>
+        </header>
 
-    </header>
+        <!-- avitar picture decorative flexbox -->
+        <section class="avatar-hero">
+          <img
+            src="./assets/images/AvatarMaker.png"
+            alt="Sarah Nguyen avatar"
+          />
 
-    <!-- avitar picture decorative flexbox -->
-    <section class="avatar-hero">
-        <img src="./assets/images/AvatarMaker.png" alt="Sarah Nguyen avatar">
+          <h2 class="hero"><span>FULL</span>-Stack Dev</h2>
+        </section>
 
-        <h2 class="hero"><span>FULL</span>-Stack Dev</h2>
+        <!-- about me paragraph -->
+        <section class="about-me" id="about">
+          <h2 class="about">About <br />Me</h2>
 
-    </section>
-
-
-
-    <!-- about me paragraph -->
-    <section class="about-me" id="about">
-
-        <h2 class="about">
-            About <br />Me
-        </h2>
-
-        <p class="paragraph">
-            Sarah is a newly-minted full stack developer fresh out of
-            the University of Wisconsin Coding Bootcamp, ready and eager to
-            merge her new coding skills with long-demonstrated effective
-            leadership, collaboration and problem-soloving skills honed
-            in her 20 years as an Occupational Therapist.
-        </p>
-
-    </section>
-    <!-- links to apps i've created
+          <p class="paragraph">
+            Sarah is a newly-minted full stack developer fresh out of the
+            University of Wisconsin Coding Bootcamp, ready and eager to merge
+            her new coding skills with long-demonstrated effective leadership,
+            collaboration and problem-soloving skills honed in her 20 years as
+            an Occupational Therapist.
+          </p>
+        </section>
+        <!-- links to apps i've created
     this is set to flex so the 'my work' label will sit to the left side always-->
-    <section class="my-work" id="work">
-        <h2 class="work">My <br />Work</h2>
+        <section class="my-work" id="work">
+          <h2 class="work">My <br />Work</h2>
 
-        <div class="work-apps">
+          <div class="work-apps">
             <!-- this is set to block -->
             <a class="app1" href="https://gribbler25.github.io/run-buddy/">
-                <img src="./assets/images/run-buddy.png" alt="image of run-buddy app">
+              <img
+                src="./assets/images/run-buddy.png"
+                alt="image of run-buddy app"
+              />
             </a>
 
-
-            <a class="app2" href="https://gribbler25.github.io/FanpageTestProject">
-                <img src="./assets/images/DuranDuran.png" alt="image of duran duran app">
+            <a
+              class="app2"
+              href="https://gribbler25.github.io/FanpageTestProject"
+            >
+              <img
+                src="./assets/images/DuranDuran.png"
+                alt="image of duran duran app"
+              />
             </a>
 
-
-            <a class="app3" href="https://gribbler25.github.io/refactor-horiseon/">
-                <img src="./assets/images/horiseon.png" alt="image of Horiseon app">
+            <a
+              class="app3"
+              href="https://gribbler25.github.io/refactor-horiseon/"
+            >
+              <img
+                src="./assets/images/horiseon.png"
+                alt="image of Horiseon app"
+              />
             </a>
 
-
-            <a class="app4" href="https://gribbler25.github.io/UkraineFakePage/">
-                <img src="./assets/images/ukraine.png" alt="image of Ukraine app">
+            <a class="app4" href="https://howacy1.github.io/quad-coding/">
+              <img
+                src="./assets/images/rapid-translate.png"
+                alt="image of Ukraine app"
+              />
             </a>
-        </div>
-    </section>
+          </div>
+        </section>
 
-    <!-- ways to reach out for an interview -->
-    <footer class="footer" id="contact">
-
-        <div class="contact-me">
-            <h2 class="contact">Contact <br /> Me</h2>
-        </div>
-        <p class="contact-info">
+        <!-- ways to reach out for an interview -->
+        <footer class="footer" id="contact">
+          <div class="contact-me">
+            <h2 class="contact">
+              Contact <br />
+              Me
+            </h2>
+          </div>
+          <p class="contact-info">
             <a href="https://github.com/gribbler25">GitHub</a><br />
-            <a href="mailto:gribbler25@gmail.com">Email: gribbler25@gmail.com</a><br />
-            <a href="https://www.linkedin.com/in/snguyen25/">Linkedin: snguyen25</a><br />
+            <a href="mailto:gribbler25@gmail.com">Email: gribbler25@gmail.com</a
+            ><br />
+            <a href="https://www.linkedin.com/in/snguyen25/"
+              >Linkedin: snguyen25</a
+            ><br />
             Phone: 494-485-9944
+          </p>
+        </footer>
+      </div>
+    </container>
+  </body>
 
-        </p>
-
-    </footer>
-
-
-</body>
-
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery-ui-touch-punch@0.2.3/jquery.ui.touch-punch.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="./assets/js/script.js"></script>
 </html>
